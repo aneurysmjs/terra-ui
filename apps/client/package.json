@@ -1,0 +1,15 @@
+{
+  "name": "@terra-ui/client",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "lint": "eslint './src/**/*.{ts,vue}'",
+    "stylelint-check": "stylelint-config-prettier-check",
+    "test": "pnpm -w t -- --selectProjects=\"client\""
+  },
+  "dependencies": {
+    "@terra-ui/composables": "workspace:^"
+  }
+}
